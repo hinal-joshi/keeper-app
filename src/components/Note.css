@@ -1,0 +1,41 @@
+.note{
+    background: #fff;
+    border-radius: 7px;
+    width: 240px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.note p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    
+}
+
+.note button{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    /* width: 36px;
+    height: 32px; */
+    background: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.note button:hover{
+    /* border: 1px solid #f5ba13; */
+    /* background-color: transparent; */
+    color: black;
+}
